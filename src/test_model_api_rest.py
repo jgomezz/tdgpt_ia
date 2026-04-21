@@ -3,9 +3,7 @@ import os
 
 from dotenv import load_dotenv
 
-
 load_dotenv()
-
 
 OPENWEBUI_URL = os.getenv("OPENWEBUI_URL", "http://localhost:3000")
 API_KEY       = os.getenv("USER_API_KEY", "12345678")

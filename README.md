@@ -25,7 +25,7 @@ curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
      -H "Authorization: Bearer COPIAR_TOKEN" \
      -H "Content-Type: application/json" \
      -d '{
-       "model": "ministral-3:14b",
+       "model": "mistralai/Ministral-3-14B-Reasoning-2512",
        "messages": [
          {
            "role": "user",
@@ -40,10 +40,17 @@ curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
 
 ## 3. Probar con Python
 
+- Estructura de archivos
 ```
 \ src
    |
    |-- list_models_ia.py       # Listar modelos de IA disponibles
    |-- test_model_api_rest.py  # Invocar a un model o de IA para consulta
 
+```
+
+- Archivo .env
+```
+OPENWEBUI_URL="https://192.168.17.11:3000"
+USER_API_KEY="COPIAR_TOKEN"
 ```
