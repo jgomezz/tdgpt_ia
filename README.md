@@ -10,7 +10,7 @@ http://192.168.17.11:3000
 
 - Ir a ajustes
 
-<img src="images/step_01.png"/>
+<img src="images/step_01.png" width="100"/>
 
 - Generar el TOKEN
 
