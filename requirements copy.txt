@@ -1,0 +1,22 @@
+# sesion 01
+openai
+langchain 
+langchain-openai 
+langchain-anthropic 
+langgraph 
+python-dotenv
+tavily-python 
+httpx
+langchain-text-splitters 
+numpy
+langchain_community
+langchain_chroma
+# sesion 03
+mcp
+langchain_mcp_adapters
+fastmcp
+# sesion 04
+fastapi 
+uvicorn
+slowapi
+streamlit
