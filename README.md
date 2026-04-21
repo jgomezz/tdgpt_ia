@@ -17,8 +17,7 @@ http://192.168.17.11:3000
     <img src="images/step_02.png"/>
 
 
-
-## Script
+## 2. Probar desde consola
 
 ```
 
@@ -39,3 +38,12 @@ curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
 
 ```
 
+## 3. Probar desde aplicaciones con Python
+
+```
+\ src
+   |
+   |-- list_models_ia.py       # Listar modelos de IA disponibles
+   |-- test_model_api_rest.py  # Invocar a un model o de IA para consulta
+
+```
