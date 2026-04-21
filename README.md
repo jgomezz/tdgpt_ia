@@ -19,6 +19,8 @@ http://192.168.17.11:3000
 
 ## 2. Probar desde consola
 
+- Ejecutar el siguiente comando desde consola, recomendable usar el Git Bash en Windows
+
 ```
 curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
      -H "Authorization: Bearer COPIAR_TOKEN" \
