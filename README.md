@@ -21,8 +21,8 @@ http://192.168.17.11:3000
 
 ```
 
-curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
-     -H "Authorization: Bearer COPIAR_TOKEN" \
+curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
+     -H "Authorization: Bearer sk-f3ac81c66db344bc90e34a11b006319b" \
      -H "Content-Type: application/json" \
      -d '{
        "model": "mistralai/Ministral-3-14B-Reasoning-2512",
@@ -57,6 +57,6 @@ curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
 
 - Archivo .env
 ```
-OPENWEBUI_URL="https://192.168.17.11:3000"
+OPENWEBUI_URL="http://192.168.17.11:3000"
 USER_API_KEY="COPIAR_TOKEN"
 ```
