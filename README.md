@@ -23,7 +23,7 @@ http://192.168.17.11:3000
 ```
 
 curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
-     -H "Authorization: Bearer sk-b9c4e618d21142deb40de665f460f02f" \
+     -H "Authorization: Bearer COPIAR_TOKEN" \
      -H "Content-Type: application/json" \
      -d '{
        "model": "ministral-3:14b",
