@@ -1,7 +1,7 @@
 
 # Configurar Virtual Environment en Python
 
-## 1. Pasos de instalación - **En macOS:**
+## 1. Pasos de instalación - **En macOS**
 --- 
 
 ### 1.1. Crear el virtual environment
@@ -30,13 +30,13 @@ pip install -r requirements.txt
 deactivate
 ```
 
-## 2. Pasos de instalación - **En Linux:**
+## 2. Pasos de instalación - **En Linux**
 ---
 ``` 
 # TODO
 ```
 
-## 3. Pasos de instalación - **En Windows:**
+## 3. Pasos de instalación - **En Windows**
 ---
 ``` 
 # TODO
