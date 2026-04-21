@@ -42,10 +42,13 @@ curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
 
 - Estructura de archivos
 ```
-\ src
-   |
-   |-- list_models_ia.py       # Listar modelos de IA disponibles
-   |-- test_model_api_rest.py  # Invocar a un model o de IA para consulta
+--\ src
+|    |
+|    |-- list_models_ia.py       # Listar modelos de IA disponibles
+|    |-- test_model_api_rest.py  # Invocar a un model o de IA para consulta
+|    
+|-- .env
+
 
 ```
 
