@@ -1,4 +1,4 @@
-# Proyecto GPT - TD
+# Proyecto TD - GPT
 
 ## 1. Obtener el TOKEN
 
