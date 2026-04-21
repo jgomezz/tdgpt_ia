@@ -20,6 +20,7 @@ http://192.168.17.11:3000
 ## 2. Probar desde consola
 
 ```
+TODO : PENDIENTE
 
 curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
      -H "Authorization: Bearer sk-f3ac81c66db344bc90e34a11b006319b" \
