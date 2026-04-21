@@ -40,6 +40,9 @@ curl -X POST "https://192.168.17.11:3000/api/chat/completions" \
 
 ## 3. Probar con Python
 
+- Instalar el Virtual Enviroment, ver documento INSTALL.md
+
+
 - Estructura de archivos
 ```
 --\ src
