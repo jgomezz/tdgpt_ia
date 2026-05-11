@@ -2,17 +2,9 @@
 
 ## 1. Obtener el TOKEN
 
-- Ingresar al enlace dentro de la red cableada de los laboratorios de TD : http://192.168.17.11:3000
-
-
-- Ir a ajustes
-
-    <img src="images/step_01.png" width="400"/>
-
+- Ingresar al enlace dentro de la red cableada de los laboratorios de TD : [http://192.168.17.11:3000](http://192.168.17.11:3000)
+- Ir a ajustes 
 - Generar el TOKEN
-
-    <img src="images/step_02.png"/>
-
 
 ## 2. Probar desde consola
 
@@ -36,9 +28,9 @@ curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
 
 ## 3. Probar con Python
 
-- Instalar el Virtual Environment, ver documento <a href=INSTALL.md>INSTALL.md</a>
-
+- Instalar el Virtual Environment, ver documento [INSTALL.md](INSTALL.md)
 - Estructura de archivos
+
 ```
 --\ src
 |    |
@@ -50,7 +42,9 @@ curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
 ```
 
 - Archivo .env
+
 ```
 OPENWEBUI_URL="http://192.168.17.11:3000"
 USER_API_KEY="COPIAR_TOKEN"
 ```
+
