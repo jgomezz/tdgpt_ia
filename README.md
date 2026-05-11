@@ -2,11 +2,8 @@
 
 ## 1. Obtener el TOKEN
 
-- Ingresar al aplicativo
+- Ingresar al enlace dentro de la red cableada de los laboratorios de TD : http://192.168.17.11:3000
 
-```
-http://192.168.17.11:3000
-```
 
 - Ir a ajustes
 
