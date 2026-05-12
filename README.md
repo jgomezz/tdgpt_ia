@@ -28,7 +28,7 @@ curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
 
 ## 3. Probar con Postman
 
-- ### Método HTTP
+- Método HTTP
 
 ```text
 POST
@@ -36,14 +36,14 @@ POST
 
 
 
-- ### URL
+- URL
 
 ```text
 http://192.168.17.11:3000/api/chat/completions
 ```
 
 
-- ### Headers
+- Headers
 
 
 | Key           | Value               |
@@ -53,7 +53,7 @@ http://192.168.17.11:3000/api/chat/completions
 
 
 
-- ### Configuración del Body
+- Configuración del Body
 
 Ir a:
 
@@ -76,7 +76,7 @@ Luego pegar:
 ```
 
 
-- ### Enviar solicitud
+- Enviar solicitud
 
 Presionar:
 
@@ -85,7 +85,7 @@ Send
 ```
 
 
-- ### Respuesta esperada (PENDIENTE)
+- Respuesta esperada (PENDIENTE)
 
 ```json
 
