@@ -34,7 +34,7 @@ curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
 POST
 ```
 
----
+
 
 ### URL
 
@@ -42,7 +42,6 @@ POST
 http://192.168.17.11:3000/api/chat/completions
 ```
 
----
 
 ### Headers
 
@@ -53,7 +52,6 @@ http://192.168.17.11:3000/api/chat/completions
 | Content-Type  | application/json    |
 
 
----
 
 ### Configuración del Body
 
@@ -77,7 +75,6 @@ Luego pegar:
 }
 ```
 
----
 
 ### Enviar solicitud
 
@@ -87,7 +84,6 @@ Presionar:
 Send
 ```
 
----
 
 ### Respuesta esperada (PENDIENTE)
 
