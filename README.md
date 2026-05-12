@@ -3,14 +3,8 @@
 ## 1. Obtener el TOKEN
 
 - Ingresar al enlace dentro de la red cableada de los laboratorios de TD : [http://192.168.17.11:3000](http://192.168.17.11:3000)
-
 - Ir a ajustes
-
-    <img src="images/step_01.png" width="400"/>
-
 - Generar el TOKEN
-
-    <img src="images/step_02.png"/>
 
 ## 2. Probar desde consola
 
@@ -29,6 +23,75 @@ curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
          }
        ]
      }'
+
+```
+
+## 3. Probar con Postman
+
+### Método HTTP
+
+```text
+POST
+```
+
+---
+
+### URL
+
+```text
+http://192.168.17.11:3000/api/chat/completions
+```
+
+---
+
+### Headers
+
+
+| Key           | Value               |
+| ------------- | ------------------- |
+| Authorization | Bearer COPIAR_TOKEN |
+| Content-Type  | application/json    |
+
+
+---
+
+### Configuración del Body
+
+Ir a:
+
+```text
+Body → raw → JSON
+```
+
+Luego pegar:
+
+```json
+{
+  "model": "mistralai/Ministral-3-14B-Instruct-2512",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Dame un programa en Python que imprima Hola, mundo!"
+    }
+  ]
+}
+```
+
+---
+
+### Enviar solicitud
+
+Presionar:
+
+```text
+Send
+```
+
+---
+
+### Respuesta esperada (PENDIENTE)
+
+```json
 
 ```
 
