@@ -123,4 +123,3 @@ USER_API_KEY="YOUR_API_KEY"
 # Modelo de IA a usar en la API de OpenWebUI
 MODEL="google/gemma-4-26B-A4B-it"
 ```
-
