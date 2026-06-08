@@ -7,7 +7,9 @@ load_dotenv()
 
 OPENWEBUI_URL = os.getenv("OPENWEBUI_URL", "http://localhost:3000")
 API_KEY       = os.getenv("USER_API_KEY", "12345678")
-MODEL         = "mistralai/Ministral-3-14B-Instruct-2512"
+MODEL         = os.getenv("MODEL", "google/gemma-4-26B-A4B-it")
+# MODEL         = "mistralai/Ministral-3-14B-Instruct-2512"
+# MODEL         = "google/gemma-4-26B-A4B-it"
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",

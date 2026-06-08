@@ -15,7 +15,7 @@ curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
      -H "Authorization: Bearer COPIAR_TOKEN" \
      -H "Content-Type: application/json" \
      -d '{
-       "model": "mistralai/Ministral-3-14B-Instruct-2512",
+       "model": "google/gemma-4-26B-A4B-it",
        "messages": [
          {
            "role": "user",
@@ -65,7 +65,7 @@ Luego pegar:
 
 ```json
 {
-  "model": "mistralai/Ministral-3-14B-Instruct-2512",
+  "model": "google/gemma-4-26B-A4B-it",
   "messages": [
     {
       "role": "user",
