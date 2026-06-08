@@ -53,6 +53,28 @@ curl -X POST "http://192.168.17.11:3000/api/chat/completions" \
 
 ```
 
+- Respuesta por Stream. Visualizando línea por línea
+```
+curl -s -X POST "http://192.168.17.11:3000/api/chat/completions" \
+     -H "Authorization: Bearer COPIAR_TOKEN" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "model": "google/gemma-4-26B-A4B-it",
+       "messages": [
+         {
+           "role": "user",
+           "content": "Dame un programa en Python que imprima Hola, mundo!"
+         }
+       ],
+      "stream": true
+     }'     \
+  | grep --line-buffered '^data: ' \
+  | sed -u 's/^data: //' \
+  | grep --line-buffered -v '^\[DONE\]$' \
+  | jq -j --unbuffered '.choices[0].delta.content // empty'
+
+```
+
 
 ## 3. Probar con Postman
 
