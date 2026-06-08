@@ -116,7 +116,11 @@ Send
 - Archivo .env
 
 ```
+# URL de la API de OpenWebUI
 OPENWEBUI_URL="http://192.168.17.11:3000"
-USER_API_KEY="COPIAR_TOKEN"
+# API Key de la API de OpenWebUI
+USER_API_KEY="YOUR_API_KEY"
+# Modelo de IA a usar en la API de OpenWebUI
+MODEL="google/gemma-4-26B-A4B-it"
 ```
 
