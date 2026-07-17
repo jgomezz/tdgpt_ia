@@ -1,4 +1,4 @@
-# Proyecto TD - GPT
+# Proyecto "La BestIA"
 
 ## 1. Obtener el TOKEN
 
