@@ -1,4 +1,4 @@
-# Proyecto "La BestIA"
+# Proyecto "La BestIA", la IA Local
 
 ## 1. Obtener el TOKEN
 
