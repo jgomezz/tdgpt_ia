@@ -21,7 +21,7 @@ print("\n=== Chat Test ===")
 payload = {
     "model": MODEL,
     "messages": [
-        {"role": "user", "content": "Dame un programa en Python que imprima 'Hola, mundo!'"}
+        {"role": "user", "content": "Dame un programa en Python con grafos para simular una base de datos"}
     ]
 }
 r = requests.post(
